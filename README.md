@@ -22,3 +22,5 @@ group-ID: ID of the group of atoms to apply the fix to
 style:  one of a list of possible style names
 
 args: arguments used by the style
+
+https://docs.lammps.org/Commands_fix.html#
