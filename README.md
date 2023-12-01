@@ -18,7 +18,7 @@ A. Useful command
 
    group-ID: ID of the group of atoms to apply the fix to
 
-   style:  one of a list of possible style names https://docs.lammps.org/Commands_fix.html#
+   style: one of a list of possible style names https://docs.lammps.org/Commands_fix.html#
 
    args: arguments used by the style
 
@@ -31,6 +31,12 @@ A. Useful command
    file: name of file to write dump info to
 
    attribute#: list of attributes for a particular style
+
+4. Thermo command: `thermo N`
+   
+   Compute and print thermodynamic info
+
+   N: N timesteps
 
 B. Workflow
 
