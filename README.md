@@ -1,5 +1,6 @@
 # LAMMPS tutorial
 
+A. Useful command
 
 1. Minimize command: `minimize etol ftol maxiter maxeval`
 
@@ -30,5 +31,7 @@
    file: name of file to write dump info to
 
    attribute#: list of attributes for a particular style
+
+B. Workflow
 
 
