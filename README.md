@@ -34,4 +34,7 @@ A. Useful command
 
 B. Workflow
 
+1. Choosing appropriate method
+
+2. 
 
