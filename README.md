@@ -1,6 +1,10 @@
-LAMMPS tutorial
+# LAMMPS tutorial
 
 
 
 
-Minimize command: minimize etol ftol maxiter maxeval
+Minimize command: `minimize etol ftol maxiter maxeval` 
+etol:
+ftol:
+maxiter:
+maxeval:
