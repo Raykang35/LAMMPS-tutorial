@@ -38,6 +38,11 @@ A. Useful command
 
    N: N timesteps
 
+5. Run command: `run N keyword values ...`
+
+   N: number of timesteps
+   
+
 B. Workflow
 
 1. Choosing compatiable force field
