@@ -1,39 +1,34 @@
 # LAMMPS tutorial
 
 
-
-
 1. Minimize command: `minimize etol ftol maxiter maxeval`
 
+   etol: stopping tolerance for energy (unitless)
 
-etol: stopping tolerance for energy (unitless)
+   ftol: stopping tolerance for force
 
-ftol: stopping tolerance for force
+   maxiter: max number of iterations
 
-maxiter: max number of iterations
-
-maxeval: max number of force/energy evaluations
+   maxeval: max number of force/energy evaluations
 
 2. Fix command: `fix ID group-ID style args`
    
+   ID: users name this "fix" by themselves
 
-ID: users name this "fix" by themselves
+   group-ID: ID of the group of atoms to apply the fix to
 
-group-ID: ID of the group of atoms to apply the fix to
+   style:  one of a list of possible style names https://docs.lammps.org/Commands_fix.html#
 
-style:  one of a list of possible style names https://docs.lammps.org/Commands_fix.html#
-
-args: arguments used by the style
+   args: arguments used by the style
 
 3. Dump command: `dump ID group-ID style N file attribute1 attribute2 ...`
    
+   style: atom or atom/adios or atom/gz or atom/zstd or cfg or cfg/gz or cfg/zstd or cfg/uef or custom or custom/gz or custom/zstd or custom/adios or dcd or grid or grid/vtk or h5md or image or local     or local/gz or local/zstd or molfile or movie or netcdf or netcdf/mpiio or vtk or xtc or xyz or xyz/gz or xyz/zstd or yaml
 
-style: atom or atom/adios or atom/gz or atom/zstd or cfg or cfg/gz or cfg/zstd or cfg/uef or custom or custom/gz or custom/zstd or custom/adios or dcd or grid or grid/vtk or h5md or image or local or local/gz or local/zstd or molfile or movie or netcdf or netcdf/mpiio or vtk or xtc or xyz or xyz/gz or xyz/zstd or yaml
+   N: dump on timesteps which are multiples of N
 
-N: dump on timesteps which are multiples of N
+   file: name of file to write dump info to
 
-file: name of file to write dump info to
-
-attribute#: list of attributes for a particular style
+   attribute#: list of attributes for a particular style
 
 
