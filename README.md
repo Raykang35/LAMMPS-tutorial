@@ -34,7 +34,19 @@ A. Useful command
 
 B. Workflow
 
-1. Choosing appropriate method
+1. Choosing compatiable force field
 
-2. 
+2. System preparation (creating initial configuration)
+
+3. Minimization (just like optimization)
+
+4. Equilibration (need to choose thermo ensemble, get stable phase in the end)
+
+
+
+
+References
+
+1. https://www.compchems.com/setting-up-a-molecular-dynamics-simulation
+2. https://docs.lammps.org/Manual.html
 
