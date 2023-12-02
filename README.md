@@ -47,6 +47,10 @@ A. Useful command
    https://docs.lammps.org/atom_style.html
 
 8. Pair_style + Pair_coeff command: `pair_style style args` `pair_coeff I J args`
+   
+   I, J: numeric atom types
+   
+   args = coefficients for one or more pairs of atom types
 
 9. Bond_style + bond_coeff command: `bond_style style args`
     
