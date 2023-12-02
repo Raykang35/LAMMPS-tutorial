@@ -46,11 +46,11 @@ A. Useful command
 
    https://docs.lammps.org/atom_style.html
 
-8. Pair_style command: `pair_style style args`
+8. Pair_style + Pair_coeff command: `pair_style style args`
 
-9. Bond_style command: `bond_style style args`
+9. Bond_style + bond_coeff command: `bond_style style args`
     
-10. Angle_style command: `angle_style style args`
+10. Angle_style + angle_coeff command: `angle_style style args`
    
 
 B. Workflow
