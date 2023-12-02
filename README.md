@@ -44,7 +44,13 @@ A. Useful command
    
 7. Atom_style command: `atom_style style args`
 
-   https://docs.lammps.org/atom_style.html 
+   https://docs.lammps.org/atom_style.html
+
+8. Pair_style command: `pair_style style args`
+
+9. Bond_style command: `bond_style style args`
+    
+10. Angle_style command: `angle_style style args`
    
 
 B. Workflow
