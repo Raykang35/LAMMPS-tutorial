@@ -64,4 +64,5 @@ References
 
 1. https://www.compchems.com/setting-up-a-molecular-dynamics-simulation
 2. https://docs.lammps.org/Manual.html
+3. https://www.osti.gov/servlets/purl/1563110 (explicit atom_style) 
 
